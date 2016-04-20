@@ -4,22 +4,23 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>温培方的BLOG</title>
+    <title>swift开发(一) | 温培方的BLOG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="温培方">
     
 
     
-    <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="温培方的BLOG">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta name="description" content="常量和变量声明常量和变量12345678let maximumNumberOfLoginAttempts = 10var currentLoginAttempt = 0//你可以在一行中声明多个常量或者多个变量，用逗号隔开var x = 0.0, y = 0.0, z = 0.0//类型标注  当你声明常量或者变量的时候可以加上类型标注 说明常量或者变量中要存储的值的类型//注意：一般来说你很少需">
+<meta property="og:type" content="article">
+<meta property="og:title" content="swift开发(一)">
+<meta property="og:url" content="http://yoursite.com/2016/04/20/swift开发(一)/index.html">
 <meta property="og:site_name" content="温培方的BLOG">
-<meta property="og:description">
+<meta property="og:description" content="常量和变量声明常量和变量12345678let maximumNumberOfLoginAttempts = 10var currentLoginAttempt = 0//你可以在一行中声明多个常量或者多个变量，用逗号隔开var x = 0.0, y = 0.0, z = 0.0//类型标注  当你声明常量或者变量的时候可以加上类型标注 说明常量或者变量中要存储的值的类型//注意：一般来说你很少需">
+<meta property="og:updated_time" content="2016-04-20T06:47:02.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="温培方的BLOG">
-<meta name="twitter:description">
+<meta name="twitter:title" content="swift开发(一)">
+<meta name="twitter:description" content="常量和变量声明常量和变量12345678let maximumNumberOfLoginAttempts = 10var currentLoginAttempt = 0//你可以在一行中声明多个常量或者多个变量，用逗号隔开var x = 0.0, y = 0.0, z = 0.0//类型标注  当你声明常量或者变量的时候可以加上类型标注 说明常量或者变量中要存储的值的类型//注意：一般来说你很少需">
 
     
     <link rel="alternative" href="/atom.xml" title="温培方的BLOG" type="application/atom+xml">
@@ -73,12 +74,10 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
   <h1 itemprop="name">
     
       <a href="/2016/04/20/swift开发(一)/" title="swift开发(一)" itemprop="url">swift开发(一)</a>
@@ -92,9 +91,16 @@
     
   </p>
 </header>
-    <div class="article-content">
-        
-        <h1 id="常量和变量"><a href="#常量和变量" class="headerlink" title="常量和变量"></a>常量和变量</h1><h2 id="声明常量和变量"><a href="#声明常量和变量" class="headerlink" title="声明常量和变量"></a>声明常量和变量</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">let maximumNumberOfLoginAttempts = 10</span><br><span class="line">var currentLoginAttempt = 0</span><br><span class="line">//你可以在一行中声明多个常量或者多个变量，用逗号隔开</span><br><span class="line">var x = 0.0, y = 0.0, z = 0.0</span><br><span class="line">//类型标注  当你声明常量或者变量的时候可以加上类型标注 说明常量或者变量中要存储的值的类型</span><br><span class="line">//注意：一般来说你很少需要写类型标注。如果你在声明常量或者变量的时候赋了一个初始值，Swift可以推断出这个常量或者变量的类型</span><br><span class="line">var welcomeMessage: String</span><br><span class="line">welcomeMessage = &quot;hello&quot;</span><br></pre></td></tr></table></figure>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#常量和变量"><span class="toc-number">1.</span> <span class="toc-text">常量和变量</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#声明常量和变量"><span class="toc-number">1.1.</span> <span class="toc-text">声明常量和变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常量变量的命名规则"><span class="toc-number">1.2.</span> <span class="toc-text">常量变量的命名规则</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#数组-字典"><span class="toc-number">2.</span> <span class="toc-text">数组 字典</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#创建空数组-和-字典"><span class="toc-number">2.1.</span> <span class="toc-text">创建空数组 和 字典</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Optional"><span class="toc-number">3.</span> <span class="toc-text">Optional</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#声明Optional"><span class="toc-number">3.1.</span> <span class="toc-text">声明Optional</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Optional的-使用"><span class="toc-number">3.2.</span> <span class="toc-text">Optional的 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#提供默认值"><span class="toc-number">3.3.</span> <span class="toc-text">?? 提供默认值</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#条件语句及循环"><span class="toc-number">4.</span> <span class="toc-text">条件语句及循环</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#if-及-for-in"><span class="toc-number">4.1.</span> <span class="toc-text">if 及 for-in</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#switch"><span class="toc-number">4.2.</span> <span class="toc-text">switch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#循环"><span class="toc-number">4.3.</span> <span class="toc-text">循环</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#函数"><span class="toc-number">5.</span> <span class="toc-text">函数</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#函数定义"><span class="toc-number">5.1.</span> <span class="toc-text">函数定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可变参数"><span class="toc-number">5.2.</span> <span class="toc-text">可变参数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#函数作为返回值"><span class="toc-number">5.3.</span> <span class="toc-text">函数作为返回值</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#函数最为参数"><span class="toc-number">5.4.</span> <span class="toc-text">函数最为参数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#元组最为返回值"><span class="toc-number">5.5.</span> <span class="toc-text">元组最为返回值</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<h1 id="常量和变量"><a href="#常量和变量" class="headerlink" title="常量和变量"></a>常量和变量</h1><h2 id="声明常量和变量"><a href="#声明常量和变量" class="headerlink" title="声明常量和变量"></a>声明常量和变量</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">let maximumNumberOfLoginAttempts = 10</span><br><span class="line">var currentLoginAttempt = 0</span><br><span class="line">//你可以在一行中声明多个常量或者多个变量，用逗号隔开</span><br><span class="line">var x = 0.0, y = 0.0, z = 0.0</span><br><span class="line">//类型标注  当你声明常量或者变量的时候可以加上类型标注 说明常量或者变量中要存储的值的类型</span><br><span class="line">//注意：一般来说你很少需要写类型标注。如果你在声明常量或者变量的时候赋了一个初始值，Swift可以推断出这个常量或者变量的类型</span><br><span class="line">var welcomeMessage: String</span><br><span class="line">welcomeMessage = &quot;hello&quot;</span><br></pre></td></tr></table></figure>
 <h2 id="常量变量的命名规则"><a href="#常量变量的命名规则" class="headerlink" title="常量变量的命名规则"></a>常量变量的命名规则</h2><p>常量和变量的命名  你可以用任何你喜欢的字符作为常量和变量名，包括 Unicode 字符,常量与变量名不能包含数学符号，箭头，保留的（或者非法的）Unicode 码位，连线与制表符。也不能以数字开头，但是可以在常量与变量名的其他地方包含数字。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">let π = 3.141592654</span><br><span class="line">let 你好 = &quot;你好世界&quot;</span><br><span class="line">let abc = 2</span><br></pre></td></tr></table></figure>
 <p>用 \() 可以更简单的实现在字符串中包含一些值</p>
@@ -127,14 +133,9 @@
 <h2 id="函数作为返回值"><a href="#函数作为返回值" class="headerlink" title="函数作为返回值"></a>函数作为返回值</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">func makeIncremementer() -&gt; ((Int) -&gt; Int)</span><br><span class="line">&#123;</span><br><span class="line">    func addOne(number: Int) -&gt; Int&#123;</span><br><span class="line">        return number + 1</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    return addOne</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">var increment = makeIncremementer()</span><br><span class="line">print(increment(7))</span><br></pre></td></tr></table></figure>
 <h2 id="函数最为参数"><a href="#函数最为参数" class="headerlink" title="函数最为参数"></a>函数最为参数</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">func hasAnyMatches(list: [Int],condition:(Int)-&gt;Bool) -&gt; Bool</span><br><span class="line">&#123;</span><br><span class="line">    for item in list&#123;</span><br><span class="line">        </span><br><span class="line">        if(condition(item))&#123;</span><br><span class="line">            return true</span><br><span class="line">        &#125;</span><br><span class="line">    </span><br><span class="line">    &#125;</span><br><span class="line">    return false</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">func lessThanTen(number:Int) -&gt; Bool</span><br><span class="line">&#123;</span><br><span class="line">    return number &lt; 10</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">var numbers = [20,19,22,12]</span><br><span class="line"></span><br><span class="line">hasAnyMatches(numbers, condition: lessThanTen)</span><br></pre></td></tr></table></figure>
 <h2 id="元组最为返回值"><a href="#元组最为返回值" class="headerlink" title="元组最为返回值"></a>元组最为返回值</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">func calculateStatistics(scores:[Int]) -&gt;(min:Int ,max:Int,sum:Int)</span><br><span class="line">&#123;</span><br><span class="line">    var min = scores[0]</span><br><span class="line">    var max = scores[0]</span><br><span class="line">    var sum = 0</span><br><span class="line">    </span><br><span class="line">    for score in scores&#123;</span><br><span class="line">        if score &gt; max</span><br><span class="line">        &#123;</span><br><span class="line">            max = score</span><br><span class="line">        &#125;else if score &lt; min</span><br><span class="line">        &#123;</span><br><span class="line">            min = score</span><br><span class="line">        &#125;</span><br><span class="line">        sum += score</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    return (min,max,sum)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">let statistics = calculateStatistics([1,2,3,4,5,6,7,8,9,10])</span><br><span class="line"></span><br><span class="line">print(statistics.sum)</span><br><span class="line">print(statistics.2)</span><br></pre></td></tr></table></figure>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
+  
+	</div>
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 
@@ -147,82 +148,43 @@
 
 
 
-
-<div class="comments-count">
+	<div class="article-share" id="share">
 	
-</div>
+	  <div data-url="http://yoursite.com/2016/04/20/swift开发(一)/" data-title="swift开发(一) | 温培方的BLOG" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
 
 </footer>
 
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2016/04/19/hello-world/" title="Hello World" itemprop="url">Hello World</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="温培方" target="_blank" itemprop="author">温培方</a>
-		
-  <p class="article-time">
-    <time datetime="2016-04-19T05:05:33.000Z" itemprop="datePublished"> Published 2016-04-19</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
+   	       
+	</article>
 	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2016/04/19/hello-world/"  title="Hello World">
+ <strong>下一篇：</strong><br/> 
+ <span>Hello World
+</span>
+</a>
 </div>
 
-</footer>
+</nav>
 
+	
 
-    </article>
-
-
-
-
-
-
-
-</div>
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">Contents</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#常量和变量"><span class="toc-number">1.</span> <span class="toc-text">常量和变量</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#声明常量和变量"><span class="toc-number">1.1.</span> <span class="toc-text">声明常量和变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常量变量的命名规则"><span class="toc-number">1.2.</span> <span class="toc-text">常量变量的命名规则</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#数组-字典"><span class="toc-number">2.</span> <span class="toc-text">数组 字典</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#创建空数组-和-字典"><span class="toc-number">2.1.</span> <span class="toc-text">创建空数组 和 字典</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Optional"><span class="toc-number">3.</span> <span class="toc-text">Optional</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#声明Optional"><span class="toc-number">3.1.</span> <span class="toc-text">声明Optional</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Optional的-使用"><span class="toc-number">3.2.</span> <span class="toc-text">Optional的 使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#提供默认值"><span class="toc-number">3.3.</span> <span class="toc-text">?? 提供默认值</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#条件语句及循环"><span class="toc-number">4.</span> <span class="toc-text">条件语句及循环</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#if-及-for-in"><span class="toc-number">4.1.</span> <span class="toc-text">if 及 for-in</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#switch"><span class="toc-number">4.2.</span> <span class="toc-text">switch</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#循环"><span class="toc-number">4.3.</span> <span class="toc-text">循环</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#函数"><span class="toc-number">5.</span> <span class="toc-text">函数</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#函数定义"><span class="toc-number">5.1.</span> <span class="toc-text">函数定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#可变参数"><span class="toc-number">5.2.</span> <span class="toc-text">可变参数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#函数作为返回值"><span class="toc-number">5.3.</span> <span class="toc-text">函数作为返回值</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#函数最为参数"><span class="toc-number">5.4.</span> <span class="toc-text">函数最为参数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#元组最为返回值"><span class="toc-number">5.5.</span> <span class="toc-text">元组最为返回值</span></a></li></ol></li></ol>
+ 
+  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
@@ -364,12 +326,89 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
         
     }
   });
 });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
 
 
 
@@ -430,4 +469,4 @@ $(document).ready(function(){
 <!-- Tiny_search End -->
 
   </body>
- </html>
+</html>
